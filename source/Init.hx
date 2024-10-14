@@ -7,15 +7,13 @@ import openfl.Lib;
 import flixel.graphics.FlxGraphic;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.addons.transition.TransitionData;
+import openfl.filters.BitmapFilter;
+import openfl.filters.ColorMatrixFilter;
 
 class Init extends MusicBeatState
 {
 	override function create()
 	{
-		#if windows
-		CPPInterface.darkMode();
-		#end
-
 		FlxG.save.bind('kec' #if (flixel < "5.0.0"), 'therealjake12' #end);
 
 		kec.backend.PlayerSettings.init();
@@ -51,6 +49,7 @@ class Init extends MusicBeatState
 
 		FlxG.autoPause = FlxG.save.data.autoPause;
 		FlxG.mouse.visible = true;
+		
 
 		// FlxTransitionableState.defaultTransIn = new TransitionData(FADE, FlxColor.BLACK, 0.4, FlxPoint.weak(0, -1), NEW);
 		// FlxTransitionableState.defaultTransOut = new TransitionData(FADE, FlxColor.BLACK, 0.4, FlxPoint.weak(0, 1), NEW);
@@ -79,7 +78,6 @@ class Init extends MusicBeatState
 				FlxG.resizeWindow(1920, 1080);
 				FlxG.resizeGame(1920, 1080);
 		}
-
 		super.create();
 
 		FlxG.switchState(new TitleState());

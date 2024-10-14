@@ -19,8 +19,8 @@ using StringTools;
 
 class CoolUtil
 {
-	public static var defaultDifficulties:Array<String> = ['Easy', "Normal", "Hard"];
-	public static var suffixDiffsArray:Array<String> = ['-easy', "", "-hard"];
+	public static var defaultDifficulties:Array<String> = ['Easy', "Normal", "Hard", "Erect"];
+	public static var suffixDiffsArray:Array<String> = ['-easy', "", "-hard", "-erect"];
 
 	public static var customDifficulties:Array<String> = [];
 

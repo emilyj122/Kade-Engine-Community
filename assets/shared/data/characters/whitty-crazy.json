@@ -1,0 +1,155 @@
+{
+ "animations": [
+  {
+   "offsets": [
+    181,
+    361
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "idle",
+   "looped": false,
+   "name": "idle",
+   "nextAnim" : "idle-loop"
+  },
+  {
+   "offsets": [
+    167,
+    413
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "up",
+   "looped": false,
+   "name": "singUP",
+   "nextAnim" : "singRIGHT-loop"
+  },
+  {
+   "offsets": [
+    166,
+    362
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "left",
+   "looped": false,
+   "name": "singLEFT",
+   "nextAnim" : "singLEFT-loop"
+  },
+  {
+   "offsets": [
+    167,
+    272
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "right",
+   "looped": false,
+   "name": "singRIGHT",
+   "nextAnim" : "singRIGHT-loop"
+  },	
+  {
+   "offsets": [
+    165,
+    196
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "down",
+   "looped": false,
+   "name": "singDOWN",
+   "nextAnim" : "singDOWN-loop"
+  },
+  {
+   "offsets": [
+    179,
+    338
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "voiceline",
+   "looped": false,
+   "name": "timesUp"
+  },
+  {
+   "offsets": [
+    181,
+    361
+   ],
+   "frameRate": 24,
+   "frameIndices": [8,9,10,11,12,13,14,15],
+   "prefix": "idle",
+   "looped": true,
+   "name": "idle-loop"
+  },
+  {
+   "offsets": [
+    181,
+    361
+   ],
+   "frameRate": 24,
+   "frameIndices": [3,4,5],
+   "prefix": "right",
+   "looped": true,
+   "name": "singRIGHT-loop"
+  },
+  {
+   "offsets": [
+    164,
+    195
+   ],
+   "frameRate": 24,
+   "frameIndices": [3,4,5],
+   "prefix": "right",
+   "looped": true,
+   "name": "singDOWN-loop"
+  },
+  {
+   "offsets": [
+    168,
+    412
+   ],
+   "frameRate": 24,
+   "frameIndices": [3,4,5],
+   "prefix": "up",
+   "looped": true,
+   "name": "singUP-loop"
+  },
+  {
+   "offsets": [
+    168,
+    363
+   ],
+   "frameRate": 24,
+   "frameIndices": [3,4,5],
+   "prefix": "left",
+   "looped": true,
+   "name": "singLEFT-loop"
+  }
+ ],
+ "barType": "rgb",
+ "isDancing": false,
+ "camPos": [
+  -200,
+  -430
+ ],
+ "holdLength": 4,
+ "flipAnimations": false,
+ "flipX": false,
+ "healthicon": "whittyCrazy",
+ "rgbArray": [
+  255,
+  29,
+  96
+ ],
+ "asset": [
+  "characters/whitty-crazy"
+ ],
+ "startingAnim": "idle",
+ "iconAnimated": false,
+ "antialiasing": true,
+ "deadChar": "",
+ "name": "whitty-crazy",
+ "replacesGF": false,
+ "scale": 1
+}

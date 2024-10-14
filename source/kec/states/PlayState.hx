@@ -2091,6 +2091,7 @@ class PlayState extends MusicBeatState
 	public var maxNPS:Int = 0;
 
 	var currentLuaIndex = 0;
+	var haveToZoom:Bool = false;
 
 	override public function update(elapsed:Float)
 	{
@@ -2120,7 +2121,7 @@ class PlayState extends MusicBeatState
 				currentLuaIndex++;
 			}
 		}
-
+		
 		// uhhh dont comment out. It breaks everything
 		if (!paused)
 		{
@@ -3498,12 +3499,19 @@ class PlayState extends MusicBeatState
 	}
 
 	var danced:Bool = false;
+	var stepsBetween:Int = 8;
 
 	override function stepHit()
 	{
 		super.stepHit();
 		if (curStep < 0)
 			return;
+			
+		if (haveToZoom && (curStep % stepsBetween == 0))
+		{
+			camHUD.zoom += 0.007 * zoomMultiplier;
+            camGame.zoom += 0.007 * zoomMultiplier;
+		}
 
 		iconP1.onStepHit(curStep);
 		iconP2.onStepHit(curStep);
@@ -3525,6 +3533,15 @@ class PlayState extends MusicBeatState
 		}
 		if (PlayState.SONG.songId == 'milf' && curStep >= 800)
 			zoomMultiplier = 1;
+		
+		if (PlayState.SONG.songId == 'ballistic' && curStep >= 2014)
+		{
+			camHUD.visible = false;
+		}
+		if (PlayState.SONG.songId == 'ballistic' && curStep >= 2127)
+		{
+			camHUD.visible = true;
+		}
 
 		#if FEATURE_LUAMODCHART
 		if (executeModchart && luaModchart != null)
@@ -3571,6 +3588,16 @@ class PlayState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
+		
+		switch(SONG.songId)
+		{
+			case 'lo-fight':
+				switch(curBeat)
+				{
+					case 136:
+						haveToZoom = true;
+				}
+		}
 
 		if (generatedMusic)
 		{

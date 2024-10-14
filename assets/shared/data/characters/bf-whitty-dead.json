@@ -1,0 +1,58 @@
+{
+ "animations": [
+  {
+   "offsets": [
+    15,
+    8
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "CRACK",
+   "looped": false,
+   "name": "firstDeath"
+  },
+  {
+   "offsets": [
+    -4,
+    4
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "GO",
+   "looped": false,
+   "name": "deathLoop"
+  },
+  {
+   "offsets": [
+    -4,
+    54
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "SELECT",
+   "looped": false,
+   "name": "deathConfirm"
+  }
+ ],
+ "barType": "rgb",
+ "camPos": [
+  0,
+  0
+ ],
+ "flipAnimations": false,
+ "flipX": false,
+ "healthicon": "bf-dead",
+ "rgbArray": [
+  49,
+  176,
+  209
+ ],
+ "asset": [
+  "characters/bf-whitty"
+ ],
+ "startingAnim": "idle",
+ "iconAnimated": false,
+ "deadChar": "bf-whitty-dead",
+ "name": "bf-whitty-dead",
+ "scale": 1
+}

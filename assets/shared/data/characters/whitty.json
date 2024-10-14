@@ -1,0 +1,95 @@
+{
+ "animations": [
+  {
+   "offsets": [
+    191,
+    474
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "idle",
+   "looped": false,
+   "name": "idle"
+  },
+  {
+   "offsets": [
+    154,
+    575
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "up",
+   "looped": false,
+   "name": "singUP"
+  },
+  {
+   "offsets": [
+    183,
+    468
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "left",
+   "looped": false,
+   "name": "singLEFT"
+  },
+  {
+   "offsets": [
+    167,
+    439
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "right",
+   "looped": false,
+   "name": "singRIGHT"
+  },
+  {
+   "offsets": [
+    189,
+    479
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "grunt",
+   "looped": false,
+   "name": "grunt"
+  },	
+  {
+   "offsets": [
+    184,
+    451
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "down",
+   "looped": false,
+   "name": "singDOWN"
+  }
+ ],
+ "barType": "rgb",
+ "isDancing": false,
+ "camPos": [
+  -200,
+  -430
+ ],
+ "holdLength": 4,
+ "flipAnimations": false,
+ "flipX": false,
+ "healthicon": "whitty",
+ "rgbArray": [
+  43,
+  66,
+  78
+ ],
+ "asset": [
+  "characters/whitty"
+ ],
+ "startingAnim": "idle",
+ "iconAnimated": false,
+ "antialiasing": true,
+ "deadChar": "",
+ "name": "whitty",
+ "replacesGF": false,
+ "scale": 1
+}

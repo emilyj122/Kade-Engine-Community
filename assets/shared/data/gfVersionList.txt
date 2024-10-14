@@ -5,3 +5,4 @@ gf-pixel
 gftank
 gftrain
 pico-speaker
+gf-whitty

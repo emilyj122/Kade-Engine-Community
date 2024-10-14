@@ -1,0 +1,24 @@
+{
+ "staticCam": false,
+ "positions": {
+  "bf-whitty": [
+   1175,
+   786
+  ],
+  "gf-whitty": [
+   960,
+   587
+  ],
+  "whitty": [
+   649,
+   862
+  ]
+ },
+ "camZoom": 0.6,
+ "directory": "shared",
+ "hasGF": true,
+ "camPosition": [
+  954,
+  792
+ ]
+}

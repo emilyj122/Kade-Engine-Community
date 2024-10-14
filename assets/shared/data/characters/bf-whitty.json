@@ -1,0 +1,127 @@
+{
+ "animations": [
+  {
+   "offsets": [
+    -15,
+    15
+   ],
+   "frameRate": 24,
+   "frameIndices": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0, 1],
+   "prefix": "BF IDLE",
+   "looped": false,
+   "name": "idle"
+  },
+  {
+   "offsets": [
+    -44,
+    57
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF UP",
+   "looped": false,
+   "name": "singUP"
+  },
+  {
+   "offsets": [
+    -15,
+    36
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF LEFT",
+   "looped": false,
+   "name": "singLEFT"
+  },
+  {
+   "offsets": [
+    -42,
+    14
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF RIGHT",
+   "looped": false,
+   "name": "singRIGHT"
+  },
+  {
+   "offsets": [
+    -17,
+    -38
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF DOWN",
+   "looped": false,
+   "name": "singDOWN"
+  },
+  {
+   "offsets": [
+    -19,
+    67
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF MISS UP",
+   "looped": false,
+   "name": "singUPmiss"
+  },
+  {
+   "offsets": [
+    -15,
+    27
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF MISS LEFT0",
+   "looped": false,
+   "name": "singLEFTmiss"
+  },
+  {
+   "offsets": [
+    -39,
+    22
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF MISS RIGHT0",
+   "looped": false,
+   "name": "singRIGHTmiss"
+  },
+  {
+   "offsets": [
+    -11,
+    -26
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "BF MISS DOWN",
+   "looped": false,
+   "name": "singDOWNmiss"
+  }
+ ],
+ "barType": "rgb",
+ "isDancing": false,
+ "camPos": [
+  60,
+  -50
+ ],
+ "flipAnimations": false,
+ "flipX": false,
+ "healthicon": "bfWhitty",
+ "rgbArray": [
+  85,
+  255,
+  230
+ ],
+ "asset": [
+  "characters/bf-whitty"
+ ],
+ "startingAnim": "idle",
+ "iconAnimated": false,
+ "antialiasing": true,
+ "deadChar": "bf-whitty-dead",
+ "name": "bf-whitty",
+ "replacesGF": false,
+ "scale": 1
+}
