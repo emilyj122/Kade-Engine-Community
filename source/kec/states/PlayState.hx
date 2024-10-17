@@ -985,6 +985,7 @@ class PlayState extends MusicBeatState
 				case 'ugh', 'guns', 'stress':
 					#if VIDEOS
 					playCutscene('${SONG.songId.toLowerCase()}Cutscene.webm', false);
+					playCutscene('${SONG.songId.toLowerCase()}Cutscene.webm', false);
 					#end
 				default:
 					createTimer(0.5, function(timer)
@@ -3534,11 +3535,11 @@ class PlayState extends MusicBeatState
 		if (PlayState.SONG.songId == 'milf' && curStep >= 800)
 			zoomMultiplier = 1;
 		
-		if (PlayState.SONG.songId == 'ballistic' && curStep >= 2014)
+		if (PlayState.SONG.songId == 'ballistic' && CoolUtil.difficultyArray[storyDifficulty] == "Erect" && curStep >= 2014)
 		{
 			camHUD.visible = false;
 		}
-		if (PlayState.SONG.songId == 'ballistic' && curStep >= 2127)
+		if (PlayState.SONG.songId == 'ballistic' && CoolUtil.difficultyArray[storyDifficulty] == "Erect" && curStep >= 2127)
 		{
 			camHUD.visible = true;
 		}

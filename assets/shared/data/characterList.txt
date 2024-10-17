@@ -18,6 +18,7 @@ spirit
 tankman
 gftrain
 bf-holding-gf
-bf-whitty
 whitty
-whitty-crazy
+bf-whitty-erect
+whitty-erect
+whitty-crazy-erect

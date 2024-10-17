@@ -2,78 +2,88 @@
  "animations": [
   {
    "offsets": [
-    11,
-    -14
+    191,
+    474
    ],
    "frameRate": 24,
    "frameIndices": [],
-   "prefix": "Sing Down",
-   "name": "singDOWN",
-   "looped": false
+   "prefix": "idle",
+   "looped": false,
+   "name": "idle"
   },
   {
    "offsets": [
-    -29,
-    98
+    154,
+    575
    ],
    "frameRate": 24,
    "frameIndices": [],
-   "prefix": "Sing Up",
-   "name": "singUP",
-   "looped": false
+   "prefix": "up",
+   "looped": false,
+   "name": "singUP"
   },
   {
    "offsets": [
-    12,
-    24
+    183,
+    468
    ],
    "frameRate": 24,
    "frameIndices": [],
-   "prefix": "Sing Left",
-   "name": "singLEFT",
-   "looped": false
+   "prefix": "left",
+   "looped": false,
+   "name": "singLEFT"
   },
   {
    "offsets": [
-    -33,
-    44
+    167,
+    439
    ],
    "frameRate": 24,
    "frameIndices": [],
-   "prefix": "Idle",
-   "name": "idle",
-   "looped": false
+   "prefix": "right",
+   "looped": false,
+   "name": "singRIGHT"
   },
   {
    "offsets": [
-    -10,
-    70
+    189,
+    479
    ],
    "frameRate": 24,
    "frameIndices": [],
-   "prefix": "Sing Right",
-   "name": "singRIGHT",
-   "looped": false
+   "prefix": "grunt",
+   "looped": false,
+   "name": "grunt"
+  },	
+  {
+   "offsets": [
+    184,
+    451
+   ],
+   "frameRate": 24,
+   "frameIndices": [],
+   "prefix": "down",
+   "looped": false,
+   "name": "singDOWN"
   }
  ],
  "barType": "rgb",
- "hasTrail": false,
  "isDancing": false,
  "camPos": [
-  100,
-  -250
+  -200,
+  -430
  ],
  "holdLength": 4,
  "flipAnimations": false,
  "flipX": false,
- "healthicon": "whittyog",
+ "healthicon": "whitty-erection",
  "rgbArray": [
-  29,
-  30,
-  53
+  43,
+  66,
+  78
  ],
  "asset": [
-  "characters/WhittySprites"
+  "characters/whitty"
  ],
  "startingAnim": "idle",
  "iconAnimated": false,

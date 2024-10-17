@@ -8,5 +8,5 @@ school
 schoolEvil
 tank
 void
-alley
-alley-ballistic
+alley-erect
+alley-ballistic-erect

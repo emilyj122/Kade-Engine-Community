@@ -120,7 +120,7 @@
  "startingAnim": "idle",
  "iconAnimated": false,
  "antialiasing": true,
- "deadChar": "bf-whitty-dead",
+ "deadChar": "bf-whitty-dead-erect",
  "name": "bf-whitty",
  "replacesGF": false,
  "scale": 1

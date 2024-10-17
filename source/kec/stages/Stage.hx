@@ -612,42 +612,42 @@ class Stage extends MusicBeatState
 							toAdd.push(stageCurtains);
 						}
 					}
-				case 'alley':
+				case 'alley-erect':
 					{
-						curStage = 'alley';
-						var bg:FlxSprite = new FlxSprite(-420, -130).loadGraphic(Paths.image('stages/alley/background'));
+						curStage = 'alley-erect';
+						var bg:FlxSprite = new FlxSprite(-420, -130).loadGraphic(Paths.image('stages/alley-erect/background'));
 						bg.antialiasing = FlxG.save.data.antialiasing;
 						bg.scrollFactor.set(1.0, 1.0);
 						bg.active = false;
 						swagBacks['bg'] = bg;
 						toAdd.push(bg);
 						
-						var smog:FlxSprite = new FlxSprite(-450, -160).loadGraphic(Paths.image('stages/alley/smog'));
+						var smog:FlxSprite = new FlxSprite(-450, -160).loadGraphic(Paths.image('stages/alley-erect/smog'));
 						smog.antialiasing = FlxG.save.data.antialiasing;
 						smog.scrollFactor.set(0.9, 0.9);
 						smog.active = false;
 						swagBacks['smog'] = smog;
 						toAdd.push(smog);
 						
-						var foreground:FlxSprite = new FlxSprite(-500, -230).loadGraphic(Paths.image('stages/alley/foreground'));
+						var foreground:FlxSprite = new FlxSprite(-500, -230).loadGraphic(Paths.image('stages/alley-erect/foreground'));
 						foreground.antialiasing = FlxG.save.data.antialiasing;
 						foreground.scrollFactor.set(0.7, 0.7);
 						foreground.active = false;
 						swagBacks['foreground'] = foreground;
 						toAdd.push(foreground);
 						
-						var volumetrics:FlxSprite = new FlxSprite(-420, -200).loadGraphic(Paths.image('stages/alley/volumetric'));
+						var volumetrics:FlxSprite = new FlxSprite(-420, -200).loadGraphic(Paths.image('stages/alley-erect/volumetric'));
 						volumetrics.antialiasing = FlxG.save.data.antialiasing;
 						volumetrics.scrollFactor.set(0.8, 0.8);
 						volumetrics.active = false;
 						swagBacks['volumetrics'] = volumetrics;
 						toAdd.push(volumetrics);
 					}
-				case 'alley-ballistic':
+				case 'alley-ballistic-erect':
 					{
-						curStage = 'alley-ballistic';
+						curStage = 'alley-ballistic-erect';
 						var bg:FlxSprite = new FlxSprite( -400, -150);
-						bg.frames = Paths.getSparrowAtlas('stages/alley-ballistic/background');
+						bg.frames = Paths.getSparrowAtlas('stages/alley-ballistic-erect/background');
 						bg.antialiasing = FlxG.save.data.antialiasing;
 						bg.scrollFactor.set(1.0, 1.0);
 						bg.animation.addByPrefix('alleyway', 'background idle', 24, true);
@@ -656,7 +656,7 @@ class Stage extends MusicBeatState
 						swagBacks['bg'] = bg;
 						toAdd.push(bg);
 						
-						var smog:FlxSprite = new FlxSprite(-450, -160).loadGraphic(Paths.image('stages/alley/smog'));
+						var smog:FlxSprite = new FlxSprite(-450, -160).loadGraphic(Paths.image('stages/alley-erect/smog'));
 						smog.antialiasing = FlxG.save.data.antialiasing;
 						smog.scrollFactor.set(0.9, 0.9);
 						smog.active = false;
@@ -664,7 +664,7 @@ class Stage extends MusicBeatState
 						toAdd.push(smog);
 						
 						var foreground:FlxSprite = new FlxSprite(-480, -220);
-						foreground.frames = Paths.getSparrowAtlas('stages/alley-ballistic/foreground');
+						foreground.frames = Paths.getSparrowAtlas('stages/alley-ballistic-erect/foreground');
 						foreground.antialiasing = FlxG.save.data.antialiasing;
 						foreground.scrollFactor.set(0.7, 0.7);
 						bg.animation.addByPrefix('alley-frontstuffs', 'foreground idle', 24, true);
@@ -673,7 +673,7 @@ class Stage extends MusicBeatState
 						swagBacks['foreground'] = foreground;
 						toAdd.push(foreground);
 						
-						var volumetrics:FlxSprite = new FlxSprite(-420, -200).loadGraphic(Paths.image('stages/alley/volumetric'));
+						var volumetrics:FlxSprite = new FlxSprite(-420, -200).loadGraphic(Paths.image('stages/alley-erect/volumetric'));
 						volumetrics.antialiasing = FlxG.save.data.antialiasing;
 						volumetrics.scrollFactor.set(0.8, 0.8);
 						volumetrics.active = false;
